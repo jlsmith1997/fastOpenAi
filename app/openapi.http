@@ -1,0 +1,9 @@
+### Send a chat to ChatGPT
+POST http://localhost:8000/openai/chat
+Content-Type: application/json
+
+{
+  "message": "What's my name?"
+}
+
+
